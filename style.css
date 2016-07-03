@@ -1,0 +1,283 @@
+
+#tervitus {
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#baas {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:250px;
+	left:200px;
+	border-style:solid;
+	border-width:1px;
+	width:500px;
+	height:430px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#baas p {
+	font-size: 13px;
+	position:absolute;
+	top:340px;
+}
+
+#baas .baasehitised {
+	position:absolute;
+	top:10px;
+	left:300px;
+	width:150px;
+}
+
+#baas .baasvarustus {
+	position:absolute;
+	top:10px;
+	left:170px;
+	width:150px;
+}
+
+#ehita {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:250px;
+	left:200px;
+	border-style:solid;
+	border-width:1px;
+	width:500px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#ehita .button {
+	background:none;
+	border:none;
+	color:green;
+}
+
+#ehita .button:hover {
+	color:red;
+}
+
+#baas .button {
+	background:none;
+	border:none;
+	color:red;
+}
+
+#baas .button:hover {
+	color:black;
+}
+
+#mets {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:315px;
+}
+
+#mets img:hover {
+	height:107px;
+	width:114px;
+}
+
+#kaart {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:250px;
+	left:200px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#kott {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:250px;
+	left:200px;
+	border-style:solid;
+	border-width:1px;
+	width:500px;
+	height:300px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#metsleht {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:250px;
+	left:200px;
+	border-style:solid;
+	border-width:1px;
+	width:500px;	
+	height:300px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#metsleht .metstip {
+	font-size:13px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	position:absolute;
+	top:190px;
+}
+
+#metsleht input {
+	width:64px;
+	height:93px;
+	background:none;
+	border:none;
+}
+
+#metsleht .puu .puusum {
+	color:green;
+}
+
+#metsleht .puu .energia {
+	color:red;
+}
+
+#metsleht .puu .metspuu{
+	background: url(http://80.69.77.72/projekt/pildid/puu.png);
+	width:64px;
+	height:93px;
+}
+
+#metsleht .puu:hover .metspuu {
+	background: url(http://80.69.77.72/projekt/pildid/puu_hover.png);
+	width:64px;
+	height:93px;
+}
+
+
+#logo {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:10px;
+	left:10px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#logo a {
+	text-decoration:none;
+	color:black;
+}
+
+#logo p {
+	position:absolute;
+	top:50px;
+	left:70px;
+	font-size:11px; 
+}
+
+#peamenu ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position:absolute;
+	top:70px;
+	left:40%;
+}
+
+#peamenu ul li {
+	display:inline;
+}
+
+#peamenu ul li a {
+	text-decoration:none;
+	padding: 5px;
+	color:black;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+#peamenu ul li a:hover {
+	color:green;
+
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position:absolute;
+	top:220px;
+	left:200px;
+}
+
+#menu ul li {
+	display:inline;
+}
+
+#menu ul li a {
+	text-decoration:none;
+	padding: 5px;	
+	color:black;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#menu ul li a:hover {
+	color:green;
+}
+
+#sissejuhatus p {
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	top:350px;
+	left:25%;
+	width:800px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#login {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	top:200px;
+	left:50px;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#login .kasutaja {
+	position:absolute;
+
+}
+
+#login .parool {
+	position:absolute;
+	top:45px;
+}
+
+#login .button {
+	border:none;
+	background:none;
+	position:absolute;
+	top:100px;
+}
+
+#login .button:hover {
+	color:green;
+} 
+
+#andmed {
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	top: 250px;
+	left: 10px;
+	border-style:solid;
+	border-width:1px;
+	width:150px;
+	text-align:center;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+#andmed a {
+	text-decoration:none;
+	color:black;
+}
+
+#andmed a:hover {
+	color:red;
+}
